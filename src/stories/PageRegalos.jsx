@@ -48,7 +48,7 @@ const data = [
  */
 export const PageRegalos = ({titulo}) => {
     return (
-        <>
+        <div>
         <h1 className="mainPageTitulo">{titulo}</h1>
         <div className="pageRegalosMainContainer">
             {
@@ -60,5 +60,5 @@ export const PageRegalos = ({titulo}) => {
             }
             
         </div>
-        </>)
+        </div>)
 }

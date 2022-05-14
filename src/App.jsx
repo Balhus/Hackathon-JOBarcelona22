@@ -5,7 +5,7 @@ import { PageRegalos } from './stories/PageRegalos'
 function App() {
 
   return (
-    <div className="container">
+    <div className="">
       <PageRegalos titulo={'Mis Regalos'}/>
     </div>
   )

@@ -10,6 +10,8 @@ El uso de este proyecto es ver como cambia la distribución del componente depen
 Los componentes estan divididos en dos, el componente Regalo que es cada regalo que se muestra en pantalla y contiene un titulo, descripcion y una array de tags, y el PageRegalos que es el componente que muestra los regalos en pantalla y pasa la información por props al componente Regalo. A este último se le pasa el título de la página por props.
 Los componentes estan hechos a traves de StoryBook ya que es un requerimento del reto.
 
+Al clickar uno de los Regalos en pantalla se muestra un el item que has clickado en la consola. Quedaria así para poder implementar alguna funcion en un futuro. 
+
 ## Installation
 Para poder ejecutarlo, hay que seguir los pasos mencionados abajo.
 En caso de ya estar en la carpeta del proyecto, podemos saltarnos el comando "cd Reto1"

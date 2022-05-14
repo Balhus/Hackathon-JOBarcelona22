@@ -12,10 +12,17 @@ text-align: center;
 @media (min-width: 835px) {
     .pageRegalosMainContainer {
         overflow-y: hidden;
-        overflow-x: hidden;
-        display: inline-flex;
+        overflow-x: auto;
+        white-space: nowrap;
         margin-top: 1rem;
         margin-right: 1rem;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pageRegalosMainContainer div{
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: 0%;
     }
 
 }
@@ -23,6 +30,7 @@ text-align: center;
 /* Vista de Móvil y Tablet */
 @media (max-width: 835px) {
     .pageRegalosMainContainer {
-        margin-top: 0.8rem;
+        /* margin-top: 0.8rem; */
+        margin:0.8rem;
     }
 }
