@@ -13,6 +13,8 @@ Los componentes estan hechos a traves de StoryBook ya que es un requerimento del
 Al clickar uno de los Regalos en pantalla se muestra un el item que has clickado en la consola. Quedaria así para poder implementar alguna funcion en un futuro. 
 
 ## Installation
+Esta subido en Vercel a esta direccion para poder probar su funcionalidad sin tener que descargar el código: https://hackathon-job-arcelona22-87qpbt9m9-balhus.vercel.app/
+
 Para poder ejecutarlo, hay que seguir los pasos mencionados abajo.
 En caso de ya estar en la carpeta del proyecto, podemos saltarnos el comando "cd Reto1"
 
